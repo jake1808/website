@@ -1,5 +1,5 @@
 import './App.css'
-import { NavBar } from './components/navBar/navBar'
+import { StickyNavbar } from './components/navbar'
 import { About } from './sections/About'
 import { Hero } from './sections/Hero'
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
 <main className="flex flex-col  h-screen w-full bg-grey ">
-  <NavBar/>
+  <StickyNavbar/>
   <Hero/>
 </main>
   )
